@@ -3254,7 +3254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 9999
-  startLives: 10
+  startLives: 5
 --- !u!114 &196616391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11413,7 +11413,7 @@ GameObject:
   - component: {fileID: 788061276}
   - component: {fileID: 788061275}
   m_Layer: 5
-  m_Name: CompleteLevel
+  m_Name: CompleteGAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12859,7 +12859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL WON
+  m_Text: GAME WIN
 --- !u!222 &909442237
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12987,7 +12987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68a3c144b3a23b4792bb98139cff822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSceneName: MainMenu
+  menuSceneName: MENU
   sceneFader: {fileID: 527505339}
 --- !u!95 &923029933
 Animator:
@@ -18771,7 +18771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa3897a3b7411f4e8ad24cfba7dcef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  livesText: {fileID: 1300048453}
+  life: {fileID: 1300048453}
 --- !u!114 &1300048453
 MonoBehaviour:
   m_ObjectHideFlags: 0
